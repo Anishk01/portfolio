@@ -62,7 +62,7 @@ dark:from-[#020617] dark:via-[#0f172a] dark:to-[#020617]   /* DARK MODE (deep + 
         </ul>
 
         {/* 🔹 RIGHT BUTTON */}
-       <Button text="Hire Me" hideOnMobile={true} Icon={Send} />
+       <a href="mailto:anishkyadav122@gmail.com"><Button text="Hire Me" Icon={Send}/></a>
 
 
         {/* 🔹 MOBILE MENU ICON */}
@@ -82,7 +82,7 @@ from-[#eef2f7] via-[#dbeafe] to-[#e0e7ff]  dark:from-[#0f172a] dark:via-[#111827
               {item}
             </p>
           ))}
-          <Button text="Hire Me"   Icon={Send}/>
+          <a href="mailto:anishkyadav122@gmail.com"><Button text="Hire Me" Icon={Send}/></a>
         </div>
       )}
     </nav>

@@ -6,6 +6,7 @@ import {ArrowDownToLine, Send } from "lucide-react";
 import Button from "../components/Button";
 
 
+
 const Hero = () => {
     return (
 
@@ -56,8 +57,8 @@ relative overflow-hidden"
                 </p>
 
                 <div className="flex flex-wrap sm:flex-nowrap gap-3 sm:gap-4">
-                    <Button text="Hire me" Icon={Send} />
-                    <Button text="Download Resume" Icon={ArrowDownToLine}/>
+                    <a href="mailto:anishkyadav122@gmail.com"><Button text="Hire me" Icon={Send} /></a>
+                    <a href="Resume.pdf" download={true}><Button text="Download Resume" Icon={ArrowDownToLine}/></a>
                 </div>
 
             </div>
