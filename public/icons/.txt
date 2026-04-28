@@ -1,0 +1,6 @@
+// icons svg png webp -- icon scout
+// gradient colors - css gradient
+// icons -- lucide react , react-icons
+// images and icons - used in .webp for performance and speed (loading of website)
+
+// props drilling projects.jsx me krna hai 
